@@ -17,6 +17,7 @@ start:              ; start label from where our code starts
     call clear_screen
 
     mov si, boot
+    call print_string
     mov si, boot_2
     call print_string
 
