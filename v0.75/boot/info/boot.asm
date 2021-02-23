@@ -67,8 +67,8 @@ clear_screen:
     MAX_VGA_INDEX dw 0xF9E    ; 3998 in decimal
     VGA_INDEX dw 0x00
 
-    boot db  'Goldsoft DOS Version 0.75',0
-    boot_2 db  '(c) Copyright Goldsoft Corp. 2021',0
+    boot db  'Goldsoft DOS Version 0.75',13,0
+    boot_2 db  '(c) Copyright Goldsoft Corp. 2021',14,0
     ;*********************************************
 
 
