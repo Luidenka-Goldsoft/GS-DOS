@@ -68,7 +68,7 @@ clear_screen:
     VGA_INDEX dw 0x00
 
     boot db  'Goldsoft DOS Version 0.75',13,0
-    boot_2 db  '(c) Copyright Goldsoft Corp. 2021',14,0
+    boot_2 db  '(c) Copyright Goldsoft Corp. 2021',13,0
     ;*********************************************
 
 
